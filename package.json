@@ -2,17 +2,11 @@
   "name": "server-chat",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "concurrently \"node tcp-server.js\" \"node tcp-client.js\"",
-    "start:server": "node tcp-server.js",
-    "start:client": "node tcp-client.js"
+    "start": "node tcp-server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
     "socket.io": "^4.8.1"
-  },
-  "devDependencies": {
-    "concurrently": "^9.1.2"
   }
 }
