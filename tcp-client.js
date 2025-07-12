@@ -1,8 +1,9 @@
 const net = require('net');
+require('dotenv').config();
 
 // Configuration
-const HOST = '127.0.0.1';
-const PORT = 3000;
+const HOST = process.env.HOST;
+const PORT = process.env.PORT;
 
 // Create a TCP client
 const client = new net.Socket();
