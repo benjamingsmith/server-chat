@@ -17,7 +17,7 @@ io.on('connection', (socket) => {
         io.emit('chat message', msg);
 
         // log out the user name and the message
-        console.log(`${socket.id} - ${msg}`);
+        console.log(`New message from ${socket.id} - ${msg}`);
     });
 
     socket.on('disconnect', () => {
