@@ -53,12 +53,18 @@ A real-time chat application built with Node.js, Express, and Socket.IO. Feature
 4. **Message History**: New users automatically see recent conversation history
 
 ## 📁 Project Structure
+<details>
+<summary>Click to expand</summary>
 server-chat/
-├── public/
-│ ├── index.html # Main HTML file
-│ ├── main.js # Client-side JavaScript
-│ └── styles.css # CSS styling
-├── tcp-server.js # Express server with Socket.IO
+├── 📁 public/
+│ ├── 📄 index.html # Main HTML file
+│ ├── 📄 main.js # Client-side JavaScript
+│ └── 📄 styles.css # CSS styling
+├── 📄 tcp-server.js # Express server with Socket.IO
+├── 📄 package.json # Project configuration
+├── 📄 package-lock.json # Dependency lock file
+└── 📄 README.md # This file
+</details>
 
 ## 🔧 How It Works
 
@@ -106,14 +112,6 @@ npm start
 node tcp-server.js
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 Future Enhancements
 
 - [ ] Private messaging
@@ -127,7 +125,7 @@ node tcp-server.js
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
 ## 📞 Support
 
