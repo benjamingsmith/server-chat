@@ -50,7 +50,7 @@
  });
 
  // Helper function to append messages
- function appendMessage(data) {
+ const appendMessage = (data) => {
      const div = document.createElement('div');
      div.className = 'message';
      div.innerHTML = `<span class="username">${data.username}:</span> ${data.message}`;
