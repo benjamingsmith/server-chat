@@ -53,18 +53,19 @@ A real-time chat application built with Node.js, Express, and Socket.IO. Feature
 4. **Message History**: New users automatically see recent conversation history
 
 ## 📁 Project Structure
-<details>
-<summary>Click to expand</summary>
+
+```bash
 server-chat/
-├── 📁 public/
-│ ├── 📄 index.html # Main HTML file
-│ ├── 📄 main.js # Client-side JavaScript
-│ └── 📄 styles.css # CSS styling
-├── 📄 tcp-server.js # Express server with Socket.IO
-├── 📄 package.json # Project configuration
-├── 📄 package-lock.json # Dependency lock file
-└── 📄 README.md # This file
-</details>
+│
+├── public/                # 🌐 Frontend files
+│   ├── index.html         # 📄 Chat interface HTML
+│   ├── main.js            # ⚡ Client-side Socket.IO logic  
+│   └── styles.css         # 🎨 UI styling
+│
+├── tcp-server.js          # 🚀 Main server application
+└──  package.json           # 📦 Project dependencies
+```
+```
 
 ## 🔧 How It Works
 
