@@ -63,7 +63,7 @@ server-chat/
 │   └── styles.css         # 🎨 UI styling
 │
 ├── tcp-server.js          # 🚀 Main server application
-└──  package.json           # 📦 Project dependencies
+└──  package.json          # 📦 Project dependencies
 ```
 ```
 
