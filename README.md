@@ -65,7 +65,6 @@ server-chat/
 ├── tcp-server.js          # 🚀 Main server application
 └──  package.json          # 📦 Project dependencies
 ```
-```
 
 ## 🔧 How It Works
 
